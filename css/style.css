@@ -1,0 +1,491 @@
+/**********************/
+/* Styles for Desktop */
+/**********************/
+body {
+  background-color: #454545;
+}
+
+.hero-area {
+  height: 450px;
+  padding: 175px 0px 200px 0px;
+  background: url(../imgs/default-background.png) #7dc142;
+}
+
+.hero-text {
+  margin: 0px 15px 0px 15px;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.hero-description {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.global-footer {
+  background-color: #272727;
+  height: auto;;
+}
+
+.global-footer-top {
+  background-color: #272727;
+}
+
+.global-footer-bottom {
+  background-color: #272727;
+  height: 60px;
+}
+
+.footer-company-name {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 2.5em;
+}
+
+.footer-primary-link {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 3.5em;
+}
+
+.footer-secondary-link {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.footer-copyright {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+#global-nav {
+  background-color: #ffffff;
+  height: auto;
+}
+
+.global-nav-join-button {
+  margin: 10px 5px 5px 35px;
+}
+
+.global-nav-main-logo {
+  margin: 10px 0px 10px 0px;
+}
+
+.global-nav-icon-pod {
+  padding: 10px 0px 0px 15px;
+  margin: 0px 0px 0px 0px;
+}
+
+.global-footer-newsletter-button {
+   border-top: 1px solid #7dc142;
+   background: #7dc142;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7cc144), to(#7dc142));
+   background: -webkit-linear-gradient(top, #7cc144, #7dc142);
+   background: -moz-linear-gradient(top, #7cc144, #7dc142);
+   background: -ms-linear-gradient(top, #7cc144, #7dc142);
+   background: -o-linear-gradient(top, #7cc144, #7dc142);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 17px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+.global-footer-newsletter-button:hover {
+   border-top-color: #7dc142;
+   background: #7dc142;
+   color: #ffffff;
+   }
+
+.global-footer-newsletter-button:active {
+   border-top-color: #5d912f;
+   background: #5d912f;
+   }
+
+/* Hide while on Desktop */
+.mobile-global-nav {
+  display: none;
+}
+
+.white-overlap-tab {
+  margin: -25px auto;
+}
+
+.about-us-area {
+  background-color: #ffffff;
+  margin: 0px 0px 50px 0px;
+}
+
+.about-us-title {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: 900;
+  line-height: 2.5em;
+  padding-left: 15px;
+}
+
+.instruct-pod {
+  text-align: center;
+}
+
+.instruct-art {
+  margin: 25px 0px 25px 0px;
+}
+
+.instruct-arrow {
+  margin: 20px 0px 0px 30px;
+}
+
+.instruct-title {
+  color: #7dc142;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 3.5em;
+}
+
+.instruct-description {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.download-app-area {
+  padding: 65px 0px 45px 0px;
+}
+
+.download-app-title {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.download-app-description {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 4em;
+}
+
+.download-app-button {
+  margin: 15px 0px 0px 0px;
+}
+
+.driver-cta-area {
+  background-color: #fcfcfc;
+  padding: 50px 0px 50px 0px;
+}
+
+.driver-cta-title {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: 900;
+  line-height: 2.5em;
+}
+
+.driver-cta-description {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.driver-cta-button {
+   border-top: 1px solid #7bd142;
+   background: #7dc142;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7dc142), to(#7dc142));
+   background: -webkit-linear-gradient(top, #7dc142, #7dc142);
+   background: -moz-linear-gradient(top, #7dc142, #7dc142);
+   background: -ms-linear-gradient(top, #7dc142, #7dc142);
+   background: -o-linear-gradient(top, #7dc142, #7dc142);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-left: -15px;
+   line-height: 4;
+}
+
+.driver-cta-button:hover {
+   border-top-color: #5d912f;
+   background: #5d912f;
+   color: #ccc;
+}
+
+.driver-cta-button:active {
+   border-top-color: #5d912f;
+   background: #5d912f;
+}
+
+.driver-fineprint-area {
+  padding-top: 15px;
+  margin-left: -25px;
+}
+
+.driver-cta-help {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.driver-cta-support {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 300;
+}
+
+
+/********************************/
+/* Style Adjustments for Tablet */
+/********************************/
+@media (min-width:768px) and (max-width: 1165px){
+
+    .global-footer-bottom {
+      padding-top: 15px;
+    }
+
+    .driver-fineprint-area {
+      padding: 0px 0px 45px 0px;
+      margin-left: -20px;
+    }
+}
+
+
+/********************************/
+/* Style Adjustments for Mobile */
+/********************************/
+@media (max-width: 768px){
+
+    /***************************/
+    /* Hide Desktop Global Nav */
+    /***************************/
+    .desktop-global-nav {
+      display: none;
+    }
+
+    /****************************/
+    /* Reveal Mobile Global Nav */
+    /****************************/
+    .mobile-global-nav {
+      display:block;
+    }
+
+    .global-nav-main-logo {
+      margin: 10px 0px 10px 15px;
+    }
+
+    /***************/
+    /* Mobile Hero */
+    /***************/
+    .hero-area {
+      height: 400px;
+      padding: 125px 0px 200px 0px;
+      background: url(../imgs/default-background.png) #7dc142;
+    }
+
+    /*******************/
+    /* Mobile About Us */
+    /*******************/
+    .about-us-title {
+      font-size: 25px;
+      font-weight: 900;
+      line-height: 1em;
+    }
+
+    .instruct-pod {
+      text-align: center;
+      margin: 25px 0px 45px 0px;
+    }
+
+    .instruct-art {
+      margin: 15px 0px 0px 0px;
+    }
+
+    .instruct-arrow {
+      display: none;
+    }
+
+    .instruct-title {
+      color: #7dc142;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 3.5em;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+    }
+
+    .instruct-description {
+      color: #000000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      margin: 0px 15px 0px 15px;
+    }
+
+    /***********************/
+    /* Mobile Download App */
+    /***********************/
+    .download-app-area {
+      padding: 20px 0px 45px 0px;
+    }
+
+    .download-app-art {
+      margin: 10px 0px 25px 0px;
+    }
+
+    .download-app-title {
+      color: #000000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+    }
+
+    .download-app-description {
+      font-size: 14px;
+    }
+
+    .download-app-button {
+      margin: 0px 5px 0px 5px;
+      width: 45%;
+    }
+
+    /*********************/
+    /* Mobile Driver CTA */
+    /*********************/
+    .driver-cta-area {
+      height: 425px;
+    }
+
+    .driver-cta-title {
+      font-size: 2em;
+      line-height: 2.5em;
+    }
+
+    .driver-cta-button {
+      margin-left: -15px;
+      line-height: 4;
+    }
+
+    .driver-fineprint-area {
+      padding: 0px 0px 65px 0px;
+      margin-left: 0px;
+    }
+
+    .driver-cta-help {
+      margin-left: -15px;
+      line-height: 1;
+    }
+
+    .driver-cta-support {
+      margin-left: -15px;
+      line-height: 1;
+    }
+
+    /************************/
+    /* Mobile Global Footer */
+    /************************/
+    .footer-primary-link {
+      font-size: 20px;
+      padding: 0px 0px 0px 15px;
+    }
+
+    .footer-secondary-link {
+      padding-left: 25px;
+    }
+
+    .footer-company-name {
+      color: #ffffff;
+      font-size: 35px;
+      font-weight: 500;
+      line-height: 2.5em;
+      padding: 15px;
+    }
+
+    .global-footer-newsletter-button {
+       border-top: 1px solid #7dc142;
+       background: #7dc142;
+       background: -webkit-gradient(linear, left top, left bottom, from(#7cc144), to(#7dc142));
+       background: -webkit-linear-gradient(top, #7cc144, #7dc142);
+       background: -moz-linear-gradient(top, #7cc144, #7dc142);
+       background: -ms-linear-gradient(top, #7cc144, #7dc142);
+       background: -o-linear-gradient(top, #7cc144, #7dc142);
+       padding: 9.5px 19px;
+       -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+       border-radius: 8px;
+       -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+       -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+       box-shadow: rgba(0,0,0,1) 0 1px 0;
+       text-shadow: rgba(0,0,0,.4) 0 1px 0;
+       color: #ffffff;
+       font-size: 17px;
+       font-family: Helvetica, Arial, Sans-Serif;
+       text-decoration: none;
+       vertical-align: middle;
+       margin-left: 15px;
+       }
+
+    .global-footer-newsletter-button:hover {
+       border-top-color: #7dc142;
+       background: #7dc142;
+       color: #ffffff;
+       }
+
+    .global-footer-newsletter-button:active {
+       border-top-color: #5d912f;
+       background: #5d912f;
+       }
+
+       .footer-copyright {
+         color: #ffffff;
+         font-size: 10px;
+         margin: 25px 0px 0px 15px;
+       }
+
+
+} /* All Good Things */
